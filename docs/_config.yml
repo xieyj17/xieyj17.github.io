@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A Tentative Title for Yijun's Personal Website
+title: A Tentative Title
 email: yijun.xie@uwaterloo.ca
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal website of Yijun Xie. I will add more description here since I have no idea what else to say.
