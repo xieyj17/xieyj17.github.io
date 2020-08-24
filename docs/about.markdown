@@ -8,6 +8,6 @@ I am Yijun Xie, currently a PhD candidate in Statistics at <span style="color:bl
 
 I have solid knowledge background and application skills in quantitative analysis and machine learning. I also have abundant experience with high-dimensional data analysis and time series, as well as high performance scientific computing involving GPU acceleration and parallelization. I am looking for a full-time job / post-doctoral position where I can continue work on challenging projects in data mining, machine learning, and statistical modeling modeling.
 
-Please find my resume [here](https://github.com/PatrickXie17/About_Me/blob/master/Yijun_Xie_Resume.pdf), and the full CV [here](https://github.com/PatrickXie17/About_Me/blob/master/CV_0221.pdf).
+Please find my resume [here](https://github.com/xieyj17/About_Me/blob/master/Yijun_Xie_Resume.pdf), and the full CV [here](https://github.com/PatrickXie17/About_Me/blob/master/CV_0221.pdf).
 
 Check my [repositories](https://github.com/xieyj17?tab=repositories) for detailed information about the projects I am working on.
