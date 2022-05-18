@@ -22,6 +22,16 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+# test $latex$
+
+inline latex $$x^2 = 1$$
+
+
+formula
+
+$$
+\int_1^2 x^2 dx
+$$
 
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
