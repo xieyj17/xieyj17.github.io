@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unpopular, Biased, and most likely Incorrect - Yijun's Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .blog-card {
+            transition: all 0.3s ease;
+        }
+        .blog-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="gradient-bg text-white p-6">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-2">Unpopular, Biased, and most likely Incorrect</h1>
+            <p class="text-xl">A blog by Yijun Xie</p>
+        </div>
+    </header>
+
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto">
+            <ul class="flex space-x-6 p-4">
+                <li><a href="../index.html" class="text-gray-700 hover:text-blue-600 transition duration-300">
+                    <i class="fas fa-arrow-left mr-2"></i>Back to Portfolio
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto mt-8 p-4">
+        <div class="max-w-3xl mx-auto">
+            <div class="space-y-6">
+                <!-- Blog Post Card -->
+                <article class="bg-white rounded-lg shadow-md p-6 blog-card">
+                    <a href="posts/julia-vs-python.html" class="block">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-bold text-gray-900 hover:text-blue-600">
+                                Why Julia Makes More Sense Than Python for ML Engineering
+                            </h2>
+                            <span class="text-sm text-gray-500">Nov 23, 2024</span>
+                        </div>
+                        <p class="mt-4 text-gray-600">
+                            A controversial take on why Julia's type system and multiple dispatch make it a superior choice for machine learning engineering, despite Python's ecosystem advantages...
+                        </p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">#Julia</span>
+                            <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">#Python</span>
+                            <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">#MLEngineering</span>
+                        </div>
+                    </a>
+                </article>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer class="gradient-bg text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Yijun Xie. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
